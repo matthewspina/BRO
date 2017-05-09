@@ -1,6 +1,5 @@
 @charset "utf-8";
 h1  {
-    padding: 0px 0px;
     background-color: #116680;
     color: #f7f6e6;
     text-align: center;
@@ -109,6 +108,7 @@ header2 {
 wrap {
     width: 300px
 }
+
 .left{
     width: 108px;
     height: 50px;
@@ -124,13 +124,10 @@ wrap {
     line-height: 50px;
     box-shadow: 0 3px 0;
     border-radius: 25px;
-
-
 }
 .button1.hover{
     color: #4c4743;
 }
-
 .right {
     width: 108px;
     height: 50px;
@@ -146,5 +143,13 @@ wrap {
     line-height: 50px;
     box-shadow: 0 3px 0;
     border-radius: 25px;
+}
 
+table {
+    margin-left: 230px;
+    margin-top: -165px;
+    margin-right: 300px
+}
+tr:nth-child(odd) {
+    background-color: #f2f2f2
 }
