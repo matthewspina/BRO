@@ -17,6 +17,13 @@ h3 {
     margin-left: 230px;
     margin-right: 300px
 }
+h4{
+    position: absolute;
+    margin-left: 220px;
+    margin-right: 700px;
+    color: #116680;
+    font-size: 25px;
+}
 footer {
     padding: 5px;
     background-color: #116680;
@@ -198,3 +205,12 @@ button3{
     border-style: ridge;
     font-family: "Footlight MT Light";
 }
+.content {
+    position: absolute;
+    margin-top: 80px;
+    margin-left: -5px;
+    margin-right: 400px;
+    line-height: 30px;
+    font-size: 20px;
+}
+
