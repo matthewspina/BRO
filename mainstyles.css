@@ -24,15 +24,19 @@ h4{
     color: #116680;
     font-size: 25px;
 }
+h6{
+    font-size: large;
+    text-align: center;
+}
 footer {
     padding: 5px;
     background-color: #116680;
     color: #f7f6e6;
     text-align: center;
     font: 1em 'BazarMedium', Arial, sans-serif;
-    position: absolute;
+    position: fixed;
     bottom:0;
-    width: 98%;
+    width: 100%;
 }
 p {
     text-align: left;
@@ -50,6 +54,11 @@ p2{
     margin-right: 300px;
     font-size: 20px;
     line-height: 25px;
+}
+p3{
+    position: absolute;
+    margin-left: 250px;
+
 }
 body {
     background-color: #FFFFFF;
@@ -204,6 +213,33 @@ button3{
     font-size: 30px;
     border-style: ridge;
     font-family: "Footlight MT Light";
+}
+button4{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 200px;
+    width: 300px;
+    height: 150px;
+    border: 3px;
+    background-color: #116680;
+    text-align: center;
+    color: black;
+    line-height: 140px;
+    font-size: 30px;
+    border-style: ridge;
+    font-family: "Footlight MT Light";
+
+}
+button5{
+    position: absolute;
+    margin-left: 650px;
+    margin-top: 100px;
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    padding: 5px;
+    border: groove;
+    border-radius: 10px;
 }
 .content {
     position: absolute;
